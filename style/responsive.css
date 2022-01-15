@@ -2,7 +2,7 @@
 
 @media (min-width:1200px){
     .banner{
-        max-height: 700px;
+        max-height: 800px;
     }
 }
 
@@ -15,7 +15,7 @@
         font-size: 45px;
     }
     .banner{
-        max-height: 700px;
+        max-height: 800px;
     }
 }
 
