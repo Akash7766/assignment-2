@@ -25,6 +25,15 @@ body{
     height: 120px;
     align-items: center;
 }
+.nav-toggle{
+    display: none;
+}
+.nav-toggle a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;    
+}
 .nav .nav-brand a{
     text-decoration: none;
     font-size: 24px;
@@ -283,10 +292,10 @@ body{
     grid-template-columns: 1fr 3px 1fr;
     grid-gap: 50px;
     justify-content: center;
-    box-shadow: 0px -10px 43px -1px rgb(0 0 0 / 15%);
+    box-sizing: border-box;
 }
 .vertical-line{
-    width: 3px;
+    width: 2px;
     height: 100%;
     background: #3A3A3A;
 }
@@ -360,3 +369,6 @@ body{
     color: #fff;
     margin: 0 12px;
 }
+
+
+
